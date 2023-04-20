@@ -1,37 +1,129 @@
 import React from 'react'
-import { ImHtmlFive } from 'react-icons/im';
-import {SiCss3} from 'react-icons/si'
-import {SiJavascript} from 'react-icons/si'
-// import {IoLogoFigma} from 'react-icons/io'
-// import {BsGithub} from 'react-icons/bs'
-// import {GrReactjs} from 'react-icons/gr'
-// import {SiTailwindcss} from 'react-icons/si'
-// import {BsFillBootstrapFill} from 'react-icons/bs'
-// import {SiDaisyui} from 'react-icons/si'
-// import {BsTrello} from 'react-icons/bs'
-// import {DiMongodb} from 'react-icons/di'
-// import {BsFiletypeJava} from 'react-icons/bs'
+
 
 
 function Experience() {
   return (
     <div>
-        <h1  className='text-5xl font-bold text-center mt-32 mb-10'>  EXPERIENCES </h1>
-        <div>
+        <h1 className='text-5xl font-bold text-center mt-32 mb-10'>  EXPERIENCES </h1>
+          
+          <div className='grid grid-cols-4 gap-10 ml-20 mt-10 mb-10'>
 
-            <ImHtmlFive/>
-            <SiCss3/>
-            <SiJavascript/>
-            {/* <IoLogoFigma/> */}
-            {/* <BsGithub/> */}
-            {/* <GrReactjs/> */}
-            {/* <SiTailwindcss/> */}
-            {/* <BsFillBootstrapFill/> */}
-            {/* <SiDaisyui/> */}
-            {/* <BsTrello/> */}
-            {/* <DiMongodb/> */}
-            {/* <BsFiletypeJava/> */}
-        </div>
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">HTML</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">CSS</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">JavaScript</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Express.Js</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Node.Js</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">React</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">MongoDB</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">MySql</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Github</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Figma</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+
+            <div className="card w-36 bg-sky-700 shadow-xl">
+              {/* <figure className="px-10 pt-10">
+                {/* <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" /> 
+              </figure> */}
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">Trello</h2>
+                {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+              </div>
+            </div>
+            </div>
+
+           
+            
+              
+          
     </div>
   )
 }

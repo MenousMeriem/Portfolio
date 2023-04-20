@@ -7,7 +7,7 @@ function Aboutme() {
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 {/* <div className=' border-emerald-400 mr-10  bg-red-600' > </div> */}
-                <figure className="max-w-2xl max-h-screen rounded-lg shadow-2xl border-solid border-2"><img src={image}/></figure>
+                <figure className="max-w-2xl max-h-screen "><img className='rounded-3xl' src={image}/></figure>
                 <div className= 'ml-10 max-w-2xl max-h-screen rounded-lg leading-loose text-justify'>
                     <h1 className="text-5xl font-bold">A PROPOS DE MOI </h1>
                     <p className="py-6">En tant qu'ingénieure en informatique et développeuse Full Stack, j'ai acquis une solide expérience dans 
