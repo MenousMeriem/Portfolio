@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink, Link, Outlet} from 'react-router-dom';
 
 function Layout() {
   return (
@@ -7,24 +8,33 @@ function Layout() {
         {/* La barre de navigation  */}
         <div className="navbar bg-base-100">
             <div className="navbar-start">
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <NavLink className="btn btn-ghost normal-case text-xl"></NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                <li><a>Accueil</a></li>
-                <li><a>A propos de moi</a></li>
-                <li><a> Portfolio</a></li>
-                <li><a> Mes services </a></li>
-                <li><a> Experiences </a></li>
+                    <li><NavLink to={'/'}>Accueil</NavLink></li>
+                    <li><Link>A propos de moi</Link></li>
+                    <li><Link> Portfolio</Link></li>
+                    <li><Link> Mes services </Link></li>
+                    <li><Link> Experiences </Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary">Contactez moi</a>
+                <NavLink className="btn btn-primary">Contactez moi</NavLink>
             </div>
         </div>
+
+        <main className=''>
+            <Outlet/>
+        </main> 
     </div>
+
+
+
   )
 }
+
+
 
 export default Layout
 
