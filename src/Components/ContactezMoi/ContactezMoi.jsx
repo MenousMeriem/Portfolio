@@ -7,7 +7,7 @@ function ContactezMoi() {
   return (
     <div>
         <div className=' rounded-t-[100px] bg-gradient-to-r from-cyan-800 via-fuchsia-800 to-indigo-900
-         shadow-lg shadow-fuchsia-500/50'>
+         shadow-lg shadow-fuchsia-500/50 '>
 
             <h1 className='text-5xl font-bold text-center mb-10 '>  CONTACTEZ-MOI </h1>
 
@@ -15,8 +15,8 @@ function ContactezMoi() {
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
                     <div className="text-center lg:text-left">
-                        <h1 className="text-3xl font-bold"> N'hésitez pas à me contacter !</h1>
-                        <p className="py-6 text-xl text-justify">N'hésitez pas à me contacter si vous avez des questions ou des commentaires sur mon travail. 
+                        <h1 className="text-3xl font-bold"> Envoyez moi un message !</h1>
+                        <p className="py-6 text-xl text-justify"> N'hésitez pas à me contacter si vous avez des questions ou des commentaires sur mon travail. 
                         Je suis toujours ouvert à de nouvelles opportunités de collaboration et je suis disponible pour répondre 
                         à vos demandes de renseignements.</p>
                         
